@@ -14,16 +14,17 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <script src="scripts.js"></script>
     </head>
     <body>
         <!-- Navigation-->
         <nav class="navbar navbar-light bg-light static-top">
             <div class="container">
-                <a class="navbar-brand" href="#!">Lucis AI</a>
-                <a class="navbar-brand" href="#!">About Us</a>
-                <a class="navbar-brand" href="#!">Our Services</a>
-                <a class="navbar-brand" href="#!">Not yet Sure</a>
-                <a class="navbar-brand" href="#!">Contact Us</a>               
+                <a class="navbar-brand" href="#!" data-scroll="services">Lucis AI</a>
+                <a class="navbar-brand" href="#services">Services</a>
+                <a class="navbar-brand" href="#about">About</a>                
+                <a class="navbar-brand" href="#dedicated-teams">Dedicated Teams</a>                
+                <a class="navbar-brand" href="#contact">Contact Us</a>                                  
             </div>
         </nav>
         <!-- Masthead-->
@@ -33,7 +34,7 @@
                     <div class="col-xl-6">
                         <div class="text-center text-white">
                             <!-- Page heading-->
-                            <h2 class="mb-5">Lucis AI leverages Artificial Intelligence to provide Melanoma diagnostic interpretation</h2>
+                            <h2 class="mb-5">Lucis AI Leading the future of AI-Powered Diagnostics</h2>
                             <!-- Signup form-->
                             <!-- * * * * * * * * * * * * * * *-->
                             <!-- * * SB Forms Contact Form * *-->
@@ -49,76 +50,90 @@
             </div>
         </header>
         <!-- Icons Grid-->
-        <section class="features-icons bg-light text-center">
-            <div class="container">
+        <section id="services" class="features-icons bg-light text-center">
+            <h2> Our Services </h2>
+            <div id="services" class="container">
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex"><i class="bi bi-phone-vibrate m-auto text-primary"></i></div>
-                            <h3>Discover our Minimal Viable Product</h3>
-                            <p class="lead mb-0">Try our minimal viable product and obtain a trial interpretaion </p>
+                            <div class="features-icons-icon d-flex"><i class="bi bi-layer-backward m-auto text-primary"></i></div>
+                            <h4>Deep Learning for Medical Diagnostics</h4>
+                            <p class="lead mb-0">AI-powered solutions for accurate and early disease detection</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                            <div class="features-icons-icon d-flex"><i class="bi bi-compass m-auto text-primary"></i></div>
-                            <h3>Melanona early diagnostic interpretation from anywhere!</h3>
-                            <p class="lead mb-0">Accesible from the confort of your home, or anywhere!</p>
+                            <div class="features-icons-icon d-flex"><i class="bi bi-bricks m-auto text-primary"></i></div>
+                            <h4>End-to-End AI Model Implementation</h4>
+                            <p class="lead mb-0">From research and development to deployment and integration</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-0 mb-lg-3">
                             <div class="features-icons-icon d-flex"><i class="bi bi-check2-all m-auto text-primary"></i></div>
-                            <h3>Easy to Use, accesible, intuitive</h3>
-                            <p class="lead mb-0">Just take a picture of your skin and receive a diagnostic interpretaation</p>
+                            <h4>MLOps & Model Backend Implementation</h4>
+                            <p class="lead mb-0">Scalable and efficient infrastructure for AI models in production</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Image Showcases-->
-        <section class="showcase">
+        <section  class="showcase">
             <div class="container-fluid p-0">
-                <div class="row g-0">
+                <div id="about" class="row g-0">
                     <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-1.jpg')"></div>
                     <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                        <h2>About Us</h2>
-                        <p class="lead mb-0">Lucis AI is a service designed to enhance desicion-making regarding your health. It leverages AI technologies to provide diagnostic interpretations. It's important to note that Lucis AI is not a substitute for a medical diagnosis </p>
+                        <h2>🔹About Us🔹</h2>
+                        <p class="lead mb-0">At Lucis AI, we harness the power of artificial intelligence to revolutionize medical diagnostics. Our expertise spans every stage of diagnostic model development, delivering cutting-edge solutions that enhance accuracy, efficiency, and accessibility in healthcare. Driven by our mission to make specialized diagnostics available to everyone, we prioritize ease of use and data security, ensuring reliable AI-powered tools for both medical professionals and individuals. </p>
                     </div>
                 </div>
-                <div class="row g-0">
+                <div id="dedicated-teams" class="row g-0">
                     <div class="col-lg-6 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-2.jpg')"></div>
                     <div class="col-lg-6 my-auto showcase-text">
-                        <h2>Melanoma Detection</h2>
-                        <p class="lead mb-0">Lucis AI utilizes advanced Deep Learning Detection technologies to provide users with more accurate health information, enabling them to make and timelier desicions</p>
+                        <h2>Dedicated Machine Learning Expert Teams</h2>
+                        <p class="lead mb-0">Build high-performing AI teams tailored to your needs</p>
+                        <ul class="mt-3">
+                            <li><h4>🔹 Scalable & Agile Teams</h4><p>Quickly scale your team with top-tier AI professionals, adapting to your project’s demands.</p></li>
+                            <li><h4>🔹 Specialized Expertise</h4><p>Work with dedicated experts in machine learning, AI model development, and MLOps.</p>
+                            </li>
+                            
+                        </ul>
                     </div>
                 </div>
                 <div class="row g-0">
                     <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-3.jpg')"></div>
                     <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                        <h2>Melanoma early detection matters</h2>
+                        <h2>Why Hire AI Development Teams with Us?</h2>
                         <p class="lead mb-0">Early melanoma detection is critical, it significantly increases the chances of successful treatment and long-term survivial. Early-detected melanomas are similiar and easier to remove, reducing the need of invasive surgery and improving outcomes. It also lowers overall healthcare costs.</p>
+                        <ul class="mt-3">
+                            <li><h4>✅ Proven Technical Excellence</h4><p>Quickly scale your team with top-tier AI professionals, adapting to your project’s demands.</p></li>
+                            <li><h4>✅ Agile & Efficient Collaboration</h4><p>Work with dedicated experts in machine learning, AI model development, and MLOps.</p>
+                            <li><h4>✅ Cross-Team Knowledge Sharing</h4><p>Work with dedicated experts in machine learning, AI model development, and MLOps.</p>
+
+                            </li>                            
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Testimonials>
+        <Testimonials>
         <section class="testimonials text-center bg-light">
             <div class="container">
-                <h2 class="mb-5">Who we are.</h2>
+                <h2 class="mb-5">Our Clients</h2>
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                             <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-1.jpg" alt="..." />
-                            <h5>Jane Doe Smith</h5>
-                            <p class="font-weight-light mb-0">Thanks to Lucis AI I was able to visit my doctor earlier and have a early melanoma diagnosis</p>
+                            <h5>Content-0</h5>
+                            <p class="font-weight-light mb-0">Otra referencia aquí</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                             <img class="img-fluid rounded-circle mb-3" src="assets/img/testimonials-2.jpg" alt="..." />
-                            <h5>Jhon Doe</h5>
-                            <p class="font-weight-light mb-0">"Lucis app is amazing. I've been using it and feel confident with my skin health."</p>
+                            <h5>Content-0</h5>
+                            <p class="font-weight-light mb-0">Working with LucisAI was an exceptional experience. Their team demonstrated outstanding professionalism, dedication, and commitment throughout our collaboration. They are truly reliable partners, and we highly recommend them!</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -132,9 +147,9 @@
                     </div>
                 </div>
             </div>
-        </section-->
+        </section>
         <!-- Call to Action-->
-        <section class="call-to-action text-white text-center" id="signup">
+        <section id="contact" class="call-to-action text-white text-center" id="signup">
             <div class="container position-relative">
                 <div class="row justify-content-center">
                     <div class="col-xl-6">
