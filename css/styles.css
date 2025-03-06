@@ -3765,6 +3765,16 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
 }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Asegura que quede por encima del contenido */
+  transition: all 0.3s ease-in-out; /* Para una transición suave si decides modificar el tamaño */
+}
+
 .navbar-brand {
   padding-top: var(--bs-navbar-brand-padding-y);
   padding-bottom: var(--bs-navbar-brand-padding-y);
@@ -3826,6 +3836,11 @@ textarea.form-control-lg {
   border-radius: var(--bs-navbar-toggler-border-radius);
   transition: var(--bs-navbar-toggler-transition);
 }
+
+.navbar-light.bg-light {
+  background-color: #ffffff !important;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
     transition: none;
